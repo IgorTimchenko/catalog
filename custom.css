@@ -1,0 +1,11 @@
+#catalog_list {
+	width: 600px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 15px;
+}
+#catalog_list .item {
+	border: 1px solid #ccc;
+	padding: 15px;
+}
